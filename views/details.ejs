@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>Restaurant details</h1><br>
+        <p>Name: <%= restaurant.name %> </p><br>
+        <p>Cuisine: <%= restaurant.cuisine %> </p><br>
+        <p>Stress: <%= restaurant.stress %> </p><br>
+        <p>Building: <%= restaurant.building %> </p><br>
+        <p>Zipcode: <%= restaurant.zipcode %> </p><br>
+        <p>Coordinates(lon.): <%= restaurant.coordinates[0] %> </p><br>
+        <p>Coordinates(lat.): <%= restaurant.coordinates[1] %> </p><br>
+        <br><br>
+        <a href="/edit?_id=<%=restaurant._id%>">Edit</a>
+    </body>
+</html>
