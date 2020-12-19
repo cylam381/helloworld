@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>Restaurant details</h1><br>
+        <p>Restaurant ID: <%= restaurant.restaurant_id %></p><br>
+        <p>Name: <%= restaurant.name %> </p><br>
+        <p>Borough: <%= restaurant.borough %> </p><br>
+        <p>Cuisine: <%= restaurant.cuisine %> </p><br>
+        <p>Street: <%= restaurant.street %> </p><br>
+        <p>Building: <%= restaurant.building %> </p><br>
+        <p>Zipcode: <%= restaurant.zipcode %> </p><br>
+        <p>Coordinates(lon.): <%= restaurant.coord[0] %> </p><br>
+        <p>Coordinates(lat.): <%= restaurant.coord[1] %> </p><br>
+        <br><br>
+        <a href="/edit?_id=<%=restaurant._id%>">Edit</a>
+    </body>
+</html>
