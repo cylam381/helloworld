@@ -4,14 +4,15 @@
     "author": "Raymond SO <rso@ouhk.edu.hk>",
     "version": "0.0.1",
     "dependencies": {
-        "express": "*",
-        "ejs": "*",
+        "assert": "*",
         "body-parser": "*",
         "cookie-session": "*",
-        "mongodb": "*",
+        "ejs": "*",
+        "express": "*",
+        "express-formidable": "1.0.0",
         "fs": "*",
-        "express-formidable": "*",
-        "assert": "*"
+        "mongodb": "*",
+        "nodemon": "*"
     },
     "engine": "node >= 12.0.0",
     "scripts": {
